@@ -1,0 +1,113 @@
+.body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-inline {
+  display: flex;
+  padding: 20px;
+  font-size: 25px;
+}
+.navbar-link a:link {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+.navbar-link a:visited {
+  color: black;
+}
+
+.navbar-link a:hover {
+  color: gray;
+  /* border-bottom: 0.5px solid black; */
+}
+
+.active-link {
+  color: black;
+  /* border-bottom: 1px solid black; */
+  text-decoration: underline;
+}
+
+.name {
+  font-family: "Pacifico", cursive;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.img {
+  width: 100%;
+  height: 350px;
+}
+
+.img:hover {
+  filter: brightness(10%);
+  cursor: pointer;
+}
+
+.one:hover .text {
+  color: seagreen;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 19px;
+}
+
+.one:hover .texts {
+  color: seagreen;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 19px;
+}
+
+.one:hover .txt {
+  color: seagreen;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 19px;
+}
+
+.one:hover .txts {
+  color: seagreen;
+  font-weight: bolder;
+  font-family: monospace;
+  font-size: 19px;
+}
+
+.text {
+  position: absolute;
+  top: 278px;
+  padding: 10px;
+  color: transparent;
+}
+
+.texts {
+  position: absolute;
+  top: 641px;
+  padding: 10px;
+  color: transparent;
+}
+
+.txt {
+  position: absolute;
+  padding: 10px;
+  bottom: 377px;
+  color: transparent;
+}
+
+.txts {
+  position: absolute;
+  padding: 10px;
+  bottom: 8px;
+  color: transparent;
+}
