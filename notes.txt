@@ -1,0 +1,7 @@
+Project Flow: 
+
+1. Navbar
+
+2. Portfolio Images
+
+3.About Page
